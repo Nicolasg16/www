@@ -104,6 +104,24 @@ section, aside {
   font-size: 16px;
 }
 
+#proyecto h2{
+padding-bottom: 1rem;
+}
+
+#proyecto a{
+  background-color: var(--color-principal);
+  border-radius: 3rem;
+  color: white;
+  font-weight:bolder;
+  text-decoration: none;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+#proyecto a:hover{
+  background-color: var(--color-terciario);
+}
+
 /*Estilos de texto*/
 h2{ font-size:26px;
     font-weight:bolder;
@@ -204,6 +222,7 @@ div figure {
   height: auto;
   display: block;
 }
+
 
 
 @media screen and (min-width: 768px){
