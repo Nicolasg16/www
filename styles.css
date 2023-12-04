@@ -106,6 +106,14 @@ aside {
   font-size: 16px;
 }
 
+#proyecto {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
 #proyecto h2 {
   padding-bottom: 1rem;
 }
@@ -261,6 +269,12 @@ div figure {
 
   div figure {
     text-align: center;
+  }
+
+  #proyecto {
+    align-items: flex-start;
+    text-align: left;
+    display: table-row;
   }
 }
 
